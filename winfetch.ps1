@@ -543,6 +543,8 @@ $img = if (-not $noimage) {
             exit 1
         }
     }
+    # 添加一个空行作为间隔
+    Write-Output ""
 }
 
 
