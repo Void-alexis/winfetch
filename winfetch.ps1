@@ -461,6 +461,7 @@ $img = if (-not $noimage) {
                 "${e}[${t};34m{3=*^``````'*4E3) ${e}[33m;EEEtttt:::::tZ``     "
                 "${e}[${t};34m            `` ${e}[33m:EEEEtttt::::z7       "
                 "${e}[${t};33m                'VEzjt:;;z>*``       "
+                "${e}[0m\n\n"
             )
         } elseif ($logo -eq "Windows 10" -Or $logo -eq "Windows 8.1" -Or $logo -eq "Windows 8") {
             $COLUMNS = 34
